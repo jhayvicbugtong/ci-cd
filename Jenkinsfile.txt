@@ -3,7 +3,7 @@ Jenkinsfile
 pipeline {
     agent any
     environment {
-        GIT_REPO_URL = 'https://github.com/jeszendot/cicd.git'
+        GIT_REPO_URL = 'https://github.com/jhayvicbugtong/ci-cd.git'
         GIT_CREDENTIALS_ID = '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'
         GIT_BRANCH = 'main'
     }
